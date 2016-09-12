@@ -1,0 +1,16 @@
+<script>
+     
+    var writtenScript = prompt("Type your tweet here")
+    
+ 
+     if(writtenScript.length < 140)
+ {
+     console.log("you have " + (140 - writtenScript.length) + " characters remaining")
+ }
+    
+    if(writtenScript.length > 140)
+ {      
+    console.log("Your text is too long, you are " + (writtenScript.length - 140) + " over the 140 character limit")
+ }   
+    
+</script>   
